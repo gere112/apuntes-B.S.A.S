@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+  
+ }
+ h1{
+    /*tamaño de la fuente */
+    font-size: larger;
+    /*espacio entre caracteres*/
+    letter-spacing: initial;
+    /*alineacion de texto*/
+    text-align: center;   
+    background: rgb(0,170,228);
+    background: radial-gradient(circle, rgba(0,170,228,1) 42%, rgba(0,170,228,1) 59%, rgba(255,255,255,1) 100%);
+}
+h2{
+
+text-align: center; 
+background: rgb(0,170,228);
+background: radial-gradient(circle, rgba(0,170,228,1) 42%, rgba(0,170,228,1) 59%, rgba(255,255,255,1) 100%);
+ }
+td{
+    text-align: center;
+ }
+th{
+    text-align: center;
+ }
+body{
+    /*tipo de fuente*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    /*tamaño de fuente px-em */
+    font-size:1.5em;
+    /*grosor de letra*/
+    font: weight 400; 
+    /*estilo de la fuente*/
+    font-style:italic ;
+ }
+table{
+    /*cambiar el lugar de la tabla*/
+ margin: 0 auto;   
+ }
+ th{
+    background: white;
+ }
+ td{
+     color: white;
+     background-color: rgba(0,129,228,1);
+ }
+.texto{
+    background: rgb(0,170,228);
+    background: radial-gradient(circle, rgba(0,170,228,1) 42%, rgba(0,170,228,1) 59%, rgba(255,255,255,1) 100%);
+    font-size:25px;
+  }
+  footer{
+background-image: url(/image/imagen_footer2.png);
+  }
+.logoBS{
+float:center;
+}
+.bicentenario{
+width:200px;
+float:right;
+}
+/*sacar el subrayado de los enlaces*/
+a:link,a:visited,a:active{
+  text-decoration: none;
+}
+.nav{
+  
+}
